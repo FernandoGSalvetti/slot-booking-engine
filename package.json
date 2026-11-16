@@ -1,0 +1,28 @@
+{
+  "name": "slot-booking-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrations": "tsx src/config/migrate.ts",
+    "seeds": "tsx src/config/seed.ts",
+    "get-teachers": "tsx src/scripts/get-teachers.ts",
+    "get-teachers-billing-report": "tsx src/scripts/get-billing-report.ts",
+    "slot-book": "tsx src/scripts/slot-book.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
